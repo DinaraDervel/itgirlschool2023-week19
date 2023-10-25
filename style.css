@@ -1,0 +1,15 @@
+.wrapper {
+  width: 90%;
+  max-width: 1150px;
+  margin: 5px auto;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+#posts {
+  flex-basis: 50%;
+}
+#newPost {
+  flex-basis: 50%;
+}

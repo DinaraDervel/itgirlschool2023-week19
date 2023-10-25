@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Week 19</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div id="posts"><h2>All posts</h2></div>
+      <div id="newPost">
+        <h2>New post</h2>
+        <input
+          id="postTitle"
+          onchange="onTitleChange"
+          type="text"
+          placeholder="Post title"
+        />
+        <input
+          id="postText"
+          onchange="onTextChange"
+          type="text"
+          placeholder="Post text"
+        />
+        <button id="addPostButton" onclick="addPost">Create post</button>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
